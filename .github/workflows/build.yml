@@ -23,7 +23,7 @@ jobs:
 
       - name: Get release UploadUrl
         id: getReleaseUploadUrl
-        uses: actions/github-script@v3.1.0
+        uses: actions/github-script@v2.297.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
