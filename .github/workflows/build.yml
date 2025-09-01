@@ -69,8 +69,8 @@ jobs:
 
       - name: repository clone
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "kuy.vpnn@gmail.com"
+          git config --global user.name "moth3r-d4rk"
           git clone https://github.com/JsHookApp/Frida-Patchs Patchs
           git clone -b ${{ github.event.inputs.FRIDA_VERSION }} --recurse-submodules https://github.com/frida/frida frida
           cd frida/frida-core
